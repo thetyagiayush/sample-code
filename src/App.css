@@ -1,0 +1,37 @@
+@font-face {
+  font-family: SatoshiRegular ;
+  src: url(./font/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: SatoshiRegular ;
+  src: url(./font/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: SatoshiBlack ;
+  src: url(./font/Satoshi-Black.otf);
+}
+
+@font-face {
+  font-family: SatoshiBold ;
+  src: url(./font/Satoshi-Bold.otf);
+}
+
+.darkbold{
+  font-family: 'SatoshiBlack';
+}
+.myfont-regular{
+  font-family: 'SatoshiRegular';
+}
+.myfont-bold{
+  font-family: 'SatoshiBold';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SatoshiRegular,RegularFont, 'Poppins';
+  border-color:#E0E6EE;
+}
